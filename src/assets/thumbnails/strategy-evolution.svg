@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#14110b"/>
+      <stop offset="1" stop-color="#1c1812"/>
+    </linearGradient>
+    <pattern id="grid" width="80" height="80" patternUnits="userSpaceOnUse">
+      <path d="M80 0H0V80" fill="none" stroke="#3a2f1b" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <rect width="1600" height="900" fill="url(#grid)"/>
+  <g stroke="#f59e0b" stroke-width="4" fill="none" opacity="0.9">
+    <path d="M800 760 800 640"/>
+    <path d="M800 640 560 520"/>
+    <path d="M800 640 1040 520"/>
+    <path d="M560 520 440 400"/>
+    <path d="M560 520 680 400"/>
+    <path d="M1040 520 920 400"/>
+    <path d="M1040 520 1160 400"/>
+    <path d="M440 400 380 300"/>
+    <path d="M680 400 620 300"/>
+    <path d="M920 400 980 300"/>
+    <path d="M1160 400 1220 300"/>
+  </g>
+  <g fill="#f59e0b">
+    <circle cx="800" cy="760" r="18"/>
+    <circle cx="560" cy="520" r="14"/>
+    <circle cx="1040" cy="520" r="14"/>
+    <circle cx="440" cy="400" r="12"/>
+    <circle cx="680" cy="400" r="12"/>
+    <circle cx="920" cy="400" r="12"/>
+    <circle cx="1160" cy="400" r="12"/>
+    <circle cx="380" cy="300" r="10"/>
+    <circle cx="620" cy="300" r="10"/>
+    <circle cx="980" cy="300" r="10"/>
+    <circle cx="1220" cy="300" r="10"/>
+  </g>
+  <g fill="#e2d4bd" font-family="'Courier New', monospace" font-size="34" opacity="0.85">
+    <text x="100" y="120">&gt; evolve --population 256 --generations 9999</text>
+    <text x="100" y="170" fill="#f59e0b" font-size="26">[ok] genome -> score -> mutate -> select -> repeat</text>
+  </g>
+  <text x="100" y="820" fill="#ffffff" font-family="'Courier New', monospace" font-weight="bold" font-size="56">STRATEGY EVOLUTION ENGINE</text>
+  <text x="100" y="864" fill="#e2d4bd" font-family="'Courier New', monospace" font-size="28" opacity="0.75">SUGAM KUMAR</text>
+</svg>

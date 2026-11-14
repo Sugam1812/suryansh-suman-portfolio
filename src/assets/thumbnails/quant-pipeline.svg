@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f9fbfe"/>
+      <stop offset="1" stop-color="#eff5fa"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <g stroke="#dde7f0" stroke-width="2" fill="none">
+    <path d="M160 700h1280M160 560h1280M160 420h1280M160 280h1280"/>
+  </g>
+  <g font-family="'Courier New', monospace" font-size="26" font-weight="bold">
+    <rect x="160" y="620" width="220" height="80" rx="14" fill="#1f81f9"/>
+    <text x="270" y="670" fill="#ffffff" text-anchor="middle">DATA</text>
+    <rect x="440" y="620" width="220" height="80" rx="14" fill="#3a86c9"/>
+    <text x="550" y="670" fill="#ffffff" text-anchor="middle">FEATURES</text>
+    <rect x="720" y="620" width="220" height="80" rx="14" fill="#0f766e"/>
+    <text x="830" y="670" fill="#ffffff" text-anchor="middle">REGIMES</text>
+    <rect x="1000" y="620" width="220" height="80" rx="14" fill="#7c3aed"/>
+    <text x="1110" y="670" fill="#ffffff" text-anchor="middle">RESEARCH</text>
+    <rect x="1280" y="620" width="160" height="80" rx="14" fill="#22c55e"/>
+    <text x="1360" y="670" fill="#ffffff" text-anchor="middle">TEST</text>
+  </g>
+  <g stroke="#1f81f9" stroke-width="3" opacity="0.85">
+    <path d="M380 660 440 660M660 660 720 660M940 660 1000 660M1220 660 1280 660"/>
+  </g>
+  <g fill="#14253e" font-family="'Courier New', monospace" font-size="34" opacity="0.85">
+    <text x="100" y="150">&gt; pipeline.run(walk_forward=True, monte_carlo=True)</text>
+    <text x="100" y="200" fill="#1f81f9" font-size="26">[ok] ingest -> features -> regimes -> hypotheses -> validate</text>
+  </g>
+  <g stroke="#1f81f9" stroke-width="5" fill="none" opacity="0.9">
+    <path d="M160 520 300 470 440 500 580 420 720 450 860 360 1000 390 1140 300 1280 330 1420 240"/>
+  </g>
+  <text x="100" y="820" fill="#14253e" font-family="'Courier New', monospace" font-weight="bold" font-size="56">QUANT RESEARCH PIPELINE</text>
+  <text x="100" y="864" fill="#4c617d" font-family="'Courier New', monospace" font-size="28" opacity="0.85">SUGAM KUMAR</text>
+</svg>
